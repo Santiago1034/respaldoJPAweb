@@ -1,0 +1,236 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, form, fieldset, blockquote {
+    padding: 0;
+    margin: 0;
+    /*font-size: 100%;
+    font-weight: normal;*/
+}
+
+*{
+    text-decoration: none;
+}
+
+.bandeja{
+  top: 0;
+  right: -300px;
+  width: 15%;
+  position: fixed;
+  height: 100vh;
+}
+
+.btn-close{
+    font-size: 25px;
+}
+
+#nav{
+    background: #000;
+}
+
+.logo{
+    width: 10%;
+}
+
+.tipografia{
+  width: 30%;
+}
+
+@media only screen and (max-width: 500px) {
+    #logo_nav {
+      height: 80px;
+      width: 80px;
+    }
+
+    .f-redes li{
+      margin-inline: 20%;
+    }
+}
+
+#agroexpresss{
+    height: 50px;
+    width: auto;
+}
+  @media only screen and (max-width: 1240px) {
+    #agroexpresss {
+      margin-right: 80px;
+    }
+  }
+  @media only screen and (max-width: 1188px) {
+    #agroexpresss {
+        margin-right: 50px;
+    }
+  }
+  @media only screen and (max-width: 1135px) {
+    #agroexpresss {
+      margin-right: 40px;
+    }
+  }
+  @media only screen and (max-width: 1080px) {
+    #agroexpresss {
+      margin-right: 30px;
+    }
+  }
+  @media only screen and (max-width: 1040px) {
+    #agroexpresss {
+      margin-right: 20px;
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    #agroexpresss {
+      padding-left: 10%;
+    }
+  }
+
+#rol_img{
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin-top: 5%;
+}
+.nav_link{
+    width: max-content;
+    color: white;
+    
+}
+.nav-link:hover,.nav_link:focus{
+    border-bottom: 2px solid #53704B;
+    background-size: 100% 2px;
+    color: green;
+}
+
+.boton_agregar{
+  width: min-content;
+  height: auto;
+  margin: 1%;
+  margin-left: auto;
+  display: block;
+  float: right;
+}
+
+.links{
+  color: #19ad05;
+}
+  
+.links:hover{
+  color: #53704B;
+  transform: scale(1.2);
+}
+
+#enlaces1ad{
+    margin-left: -30%;
+    margin-right: 2%;
+    color: aliceblue;
+}
+
+  @media only screen and (max-width: 1300px){
+    #enlaces1ad{
+      margin-left: -55%;
+      margin-right: 2%;
+      
+    }
+
+    #enlaces2ad{
+    margin-left: -20%;
+    }
+  }
+
+  @media only screen and (max-width: 1250px){
+    #enlaces1ad{
+      margin-left: -80%;
+      margin-right: 2%;
+    }
+
+    #enlaces2ad{
+    margin-left: -30%;
+    }
+  }
+
+#enlaces2ad{
+    margin-right: 5%;
+    color: aliceblue;
+}
+
+.contenido{
+    background-color: #dbddda;
+    color: #146300;
+    margin: 1%;
+    padding: 1%;
+    display: flex;
+    border-radius: 2%;
+    border-color: #146300;
+    flex-wrap: row;
+    justify-content: space-between;
+}
+
+.contenido:hover{
+    background-color: #54883bfa;
+    color: #ffffff;
+    margin: 1%;
+    padding: 1%;
+}
+
+    @media only screen and (max-width: 768px){
+      .contenido {
+          display: flex;
+          flex-direction: column;
+      }
+
+      #logo_nav{
+        display: none;
+      }
+
+      #agroexpress{
+        left: 0;
+      }
+    }
+
+.img_usu{
+    width: 30%;
+    height: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background: #000;
+}
+
+.f-Productos a{
+ text-decoration: none;
+ color: white;
+}
+
+.f-Productos li{
+  margin: 5% 0 5% 0;
+}
+
+.f-redes li{
+  padding: 4px;
+  margin-inline: 3%;
+  border-radius: 60%;
+  width: 6.5%;
+}
+
+.f-redes li:hover{
+  background: #53704B;
+  color: #000;
+}
+
+.f-redes li:hover .f-icon{
+  color: #000;
+}
+
+.f-icon{
+  text-decoration: none;
+  font-size: 35px;
+  color: white;
+}
+
+.slogan{
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+}
